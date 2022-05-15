@@ -6,6 +6,32 @@ import * as THREE from "three";
 import FOG from "vanta/dist/vanta.fog.min"
 
 export default function Home() {
+  const [vantaEffect, setVantaEffect] = useState(0);
+  const vantaRef = useRef(null);
+  useEffect(() => {
+    if (!vantaEffect) {
+      setVantaEffect(
+        FOG({
+          el: vantaRef.current,
+          THREE: THREE,
+          mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  highlightColor: 0x2ff7,
+  midtoneColor: 0xffffff,
+  lowlightColor: 0xffffff,
+  baseColor: 0xffffff
+        })
+      );
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy();
+    };
+  }, [vantaEffect]);
+
+
   return (
     <div className={styles.container}>
       <Head>
