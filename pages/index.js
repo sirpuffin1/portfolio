@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { useEffect, useRef, useState } from 'react'
+import * as THREE from "three";
+import FOG from "vanta/dist/vanta.fog.min"
 
 export default function Home() {
   return (
