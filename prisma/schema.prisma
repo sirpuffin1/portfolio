@@ -6,6 +6,16 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "mongodb"
   url      = env("DATABASE_URL")
+}
+
+model projects {
+  id    String    @id @default(auto()) @map("_id") @db.ObjectId
+  title String
+  description String
+  tools String[]
+  gitHubLink  String
+  liveSiteLink  String
+  imgUrl  String
 }
