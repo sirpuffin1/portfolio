@@ -41,7 +41,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        
+        <h1 ref={vantaRef}>
+          HELLOOO WORLD
+        </h1>
       </main>
 
       
