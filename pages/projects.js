@@ -18,7 +18,12 @@ const projects = ({projects}) => {
             {projects.map(project => (
                 <div key={project.title}>
                 <div key={project._id}>{project.description}</div>
-                <Image key={project.imgUrl} src={`/${project.imgUrl}`} alt={""} layout="responsive" width={50} height={50}/>
+                {/* <Image key={project.imgUrl} src={`/${project.imgUrl}`} alt={""} layout="responsive" width={50} height={50}/> */}
+                <div>
+                    {project.tools.map((tool) => (
+                        <li className={tool} key=""></li>
+                    ))}
+                </div>
                 </div>
             ))}
         </div>
