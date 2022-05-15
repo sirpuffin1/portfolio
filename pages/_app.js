@@ -3,7 +3,7 @@ import { useEffect } from "react"
 import Navbar from '../components/Navbar';
 import { motion } from 'framer-motion'
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
   useEffect(() => {
     const devIconLink = document.createElement("link");
     devIconLink.setAttribute("id", "devIconLink");
@@ -19,7 +19,20 @@ function MyApp({ Component, pageProps }) {
   return (
   <>
   <Navbar/>
+  <motion.div
+  key={router.route}
+      initial="initial"
+      animate="animate"
+      variants={{
+        initial: {
+          opacity: 0,
+        },
+        animate: {
+          opacity: 1,
+        },
+      }}>
   <Component {...pageProps} />
+  </motion.div>
   </>
   )
 }
