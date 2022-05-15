@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import { useEffect } from "react"
+import Navbar from '../components/Navbar';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -14,7 +15,12 @@ function MyApp({ Component, pageProps }) {
       }
     };
   }, []);
-  return <Component {...pageProps} />
+  return (
+  <>
+  <Navbar/>
+  <Component {...pageProps} />
+  </>
+  )
 }
 
 export default MyApp
