@@ -19,7 +19,8 @@ const Contact = () => {
       });
   };
     return (
-        <div className="relative z-10 w-full max-w-2xl mt-20 lg:mt-0 lg:w-5/12 bg-blue-200 v">
+       <div className="bg-blue-200 h-screen">
+        <div className="relative z-10 w-full max-w-2xl mt-20 lg:mt-0 lg:w-5/12">
         <div className="relative z-10 flex flex-col items-start justify-start p-10 bg-white shadow-2xl rounded-xl">
            <h4 className="w-full text-4xl font-medium leading-snug">Contact me</h4>
            <form ref={form} onSubmit={sendEmail} className="relative w-full mt-6 space-y-8">
@@ -42,6 +43,7 @@ const Contact = () => {
                  <input type="submit" value="Send" className="inline-block w-full px-5 py-4 text-xl font-medium text-center text-white transition duration-200 bg-blue-600 rounded-lg hover:bg-blue-500 ease"/>
               </div>
            </form>
+        </div>
         </div>
         </div>
     );
