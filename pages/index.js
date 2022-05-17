@@ -47,9 +47,12 @@ export default function Home() {
         
         <p className="text-blue-900 text-5xl font-bold  mt-4">I&apos;m Angel Cruz</p>
         <p className="text-blue-900 text-5xl font-bold  mt-4">and I&apos;m currently a MEAN stack apprentice at <a className="text-black" href="https://bitwiseindustries.com/">Bitwise Industries</a></p>
+        <a href="https://drive.google.com/file/d/1OEP6vRPZu3jY4_1t76YDtSP0Qvu_bd_Z/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <button className="bg-blue-700 hover:bg-transparent text-black font-bold h-20 w-32 border border-blue-700 rounded ">
+
   My Resume
 </button>
+</a>
         
         </div>
       </main>
