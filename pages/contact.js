@@ -18,11 +18,12 @@ const Contact = () => {
           console.log(error.text);
       });
   };
-    return (
-       <div className="bg-blue-200 h-screen">
-        <div className="relative z-10 w-full max-w-2xl mt-20 lg:mt-0 lg:w-5/12">
+    return (<>
+      <h1 className="inline text-7xl font-bold text-white border-b-8 border-b-blue-900 mb-4">Contact me</h1>
+       
+          
+        <div className="relative z-10 w-full max-w-2xl mt-20 lg:mt-8 lg:w-5/12">
         <div className="relative z-10 flex flex-col items-start justify-start p-10 bg-white shadow-2xl rounded-xl">
-           <h4 className="w-full text-4xl font-medium leading-snug">Contact me</h4>
            <form ref={form} onSubmit={sendEmail} className="relative w-full mt-6 space-y-8">
               <div className="relative">
                  <label   className="absolute px-2 ml-2 -mt-3 font-medium text-gray-600 bg-white">Name</label>
@@ -45,7 +46,8 @@ const Contact = () => {
            </form>
         </div>
         </div>
-        </div>
+
+        </>
     );
 }
 
