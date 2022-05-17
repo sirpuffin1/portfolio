@@ -14,7 +14,7 @@ const Navbar = () => {
         <nav className='flex items-center flex-wrap bg-blue-600 p-3 '>
         <Link href='/'>
             <a className='inline-flex items-center mb-3'>
-          <Cloud text={AC}/>
+          <Cloud/>
             <span className='text-xl text-white font-bold uppercase tracking-wide pt-4 pl-4'>
               Angel Cruz
             </span>
