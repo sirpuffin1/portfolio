@@ -6,7 +6,7 @@ const Intro = () => {
         
         <p className={["text-white  text-5xl font-bold mt-4", styles.textStroke].join(" ")}>I&apos;m Angel Cruz</p>
         <p className={["text-white  text-5xl font-bold mt-4", styles.textStroke].join(" ")}>and I&apos;m currently a MEAN stack apprentice at <a className="text-black" href="https://bitwiseindustries.com/">Bitwise Industries</a></p>
-        <a href="https://drive.google.com/file/d/1eS9oXLOZY0PYqnZaBC7OawlfdxJHS0jF/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1uAxJdH1aPOzWxLc6aFs8KAxkBMCZ_y3i/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <button className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mt-4 ">
 
   My Resume
