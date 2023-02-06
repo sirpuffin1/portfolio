@@ -27,10 +27,7 @@ const Intro = () => {
           styles.textStroke,
         ].join(" ")}
       >
-        and I&apos;m currently a MEAN stack apprentice at{" "}
-        <a className="text-black" href="https://bitwiseindustries.com/">
-          Bitwise Industries
-        </a>
+        and I&apos;m YOUR full-stack developer
       </p>
 
       <div>
