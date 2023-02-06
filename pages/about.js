@@ -8,7 +8,7 @@ const about = () => {
        
         
         <p className="font-bold text-3xl text-blue-900 mb-4">A full-stack (it's hyphenated I checked) developer who is constantly diving into new technology and tries their best to find the next cool thing. My favorite thing about development is finding new things and mashing them together until I can get them to work. </p>
-        <p className="font-bold text-3xl text-blue-900 mb-4">I currently work for Bitwise Industries as a MEAN stack apprentice. This opportunity has allowed me to work under a lead developer and learn as much as possible. I feel like I&apos;ve learned a lot in my time with this company and I&apos;m ready to branch away and see what&apos;s out there.</p>
+        <p className="font-bold text-3xl text-blue-900 mb-4">I'm currently looking to break into the tech industry, and hopefully wow some people on the way. I'm extremely confident in my skills, resourcefulness, and creative problem solving abiities. Let's see what's out there.</p>
         <p className="font-bold text-3xl text-blue-600 mb-4">The sky&apos;s the limit.</p>
         
         
